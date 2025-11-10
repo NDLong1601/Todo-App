@@ -42,6 +42,13 @@ class AppTextstyle {
     color: AppColors.black.withValues(alpha: 0.75),
   );
 
+  static TextStyle regularTsSize12Black = TextStyle(
+    fontFamily: 'Poppins',
+    fontSize: 12,
+    fontWeight: FontWeight.w400,
+    color: AppColors.black.withValues(alpha: 0.75),
+  );
+
   static TextStyle regularTsSize16lightBlue = TextStyle(
     fontFamily: 'Poppins',
     fontSize: 16,
