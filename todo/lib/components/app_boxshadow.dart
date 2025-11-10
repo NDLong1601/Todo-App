@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo/const/app_color.dart';
 
 class AppBoxShadow {
   static BoxShadow custom({
@@ -6,7 +7,7 @@ class AppBoxShadow {
     double blurRadius = 0,
     double x = 0,
     double y = 4,
-    Color color = const Color(0xFF000000),
+    Color color = AppColors.black,
     double opacity = 0.25,
   }) {
     return BoxShadow(
