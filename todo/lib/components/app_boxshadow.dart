@@ -1,0 +1,20 @@
+import 'package:flutter/material.dart';
+import 'package:todo/const/app_color.dart';
+
+class AppBoxShadow {
+  static BoxShadow custom({
+    double spreadRadius = 0,
+    double blurRadius = 0,
+    double x = 0,
+    double y = 4,
+    Color color = AppColors.black,
+    double opacity = 0.25,
+  }) {
+    return BoxShadow(
+      color: color.withValues(alpha: opacity),
+      spreadRadius: spreadRadius,
+      blurRadius: blurRadius,
+      offset: Offset(x, y),
+    );
+  }
+}
